@@ -6,7 +6,7 @@ A comprehensive index of all documented problems and their solutions.
 
 | Date | Problem | Category | Severity | Status | Time to Resolve |
 |------|---------|----------|----------|--------|-----------------|
-| [Add entries as you document problems] | | | | | |
+| 2025-09-15 | [Kubernetes API Server Connection Refused - Swap Memory Issue](infrastructure/2025-09-15-k8s-api-server-connection-refused-swap.md) | Infrastructure | Critical | Solved | 15 min |
 
 ## By Category
 
@@ -14,7 +14,7 @@ A comprehensive index of all documented problems and their solutions.
 - [No problems documented yet]
 
 ### 🏗️ Infrastructure  
-- [No problems documented yet]
+- [Kubernetes API Server Connection Refused - Swap Memory Issue](infrastructure/2025-09-15-k8s-api-server-connection-refused-swap.md) - Critical issue with k8s cluster API server unreachable due to swap memory
 
 ### 🗄️ Database
 - [No problems documented yet]
@@ -31,16 +31,19 @@ A comprehensive index of all documented problems and their solutions.
 ## Quick Reference
 
 ### Most Common Problems
-1. [Will be populated as problems are added]
+1. Kubernetes swap memory causing API server failures
 
 ### Quick Fixes (< 30 min)
-- [Problems with quick solutions]
+- [Kubernetes API Server Connection Refused - Swap Memory Issue](infrastructure/2025-09-15-k8s-api-server-connection-refused-swap.md) - Disable swap memory on all k8s nodes
 
 ### Complex Solutions (> 2 hours)
-- [Problems requiring significant effort]
+- [None documented yet]
+
+### Critical Issues
+- [Kubernetes API Server Connection Refused - Swap Memory Issue](infrastructure/2025-09-15-k8s-api-server-connection-refused-swap.md) - Cluster becomes completely unreachable
 
 ---
 
-**Last Updated:** [Date]  
-**Total Problems Documented:** 0  
-**Total Time Saved:** 0 hours
+**Last Updated:** 2025-09-15  
+**Total Problems Documented:** 1  
+**Total Time Saved:** 0 hours (first entry - savings will accumulate from future references)
